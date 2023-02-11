@@ -5,13 +5,14 @@ import com.atguigu.myzhxy.service.ClazzService;
 import com.atguigu.myzhxy.util.Result;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@Api
 @RestController
 @RequestMapping("/sms/clazzController")
 public class ClazzController {

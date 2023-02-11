@@ -9,6 +9,7 @@ import com.atguigu.myzhxy.service.StudentService;
 import com.atguigu.myzhxy.service.TeacherService;
 import com.atguigu.myzhxy.util.*;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;
 
+@Api
 @RestController
 @RequestMapping("/sms/system")
 public class SystemController {
